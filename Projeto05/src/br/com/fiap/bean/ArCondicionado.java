@@ -1,14 +1,10 @@
 package br.com.fiap.bean;
 
 public class ArCondicionado {
-
-    //atributos
-
+    // atributos
     public int temperatura;
     public String modo;
-
-    //métodos
-
+    // métodos
     public void aumentarTemperatura(){
         temperatura++;
     }

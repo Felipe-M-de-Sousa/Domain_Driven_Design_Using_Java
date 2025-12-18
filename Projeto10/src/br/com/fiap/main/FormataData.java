@@ -11,6 +11,6 @@ public class FormataData {
         LocalDate fimDosTempos = LocalDate.parse("2012-12-21");
         Period periodo = Period.between(fimDosTempos, dataAtual);
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-        JOptionPane.showMessageDialog(null, String.format("Data atual: %s \nData do fim do mundo : %s \nDesde o fim dos tempos, passaram-se: %d ano(s) ; %d mês(es) e %d dia(s)", dataAtual.format(dtf), fimDosTempos.format(dtf), periodo.getYears(), periodo.getMonths(), periodo.getDays()));
+        JOptionPane.showMessageDialog(null, String.format("Data Atual: %s \nData do Fim do Mundo: %s \nDesde o fim dos tempos, passaram-se: %d ano(s), %d mês(s) e %d dia(s)", dataAtual.format(dtf), fimDosTempos.format(dtf), periodo.getYears(), periodo.getMonths(), periodo.getDays()));
     }
 }

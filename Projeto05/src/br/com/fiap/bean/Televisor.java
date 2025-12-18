@@ -1,19 +1,15 @@
 package br.com.fiap.bean;
 
 public class Televisor {
-
-    //atributos
-
+    // atributos
     public int volume;
     public int canal;
-
-    //métodos
-
+    // métodos
     public void aumentarVolume(){
-        volume++;
+        volume ++;
     }
     public void diminuirVolume(){
-        volume--;
+        volume --;
     }
     public void trocarCanal(int novoCanal){
         canal = novoCanal;
